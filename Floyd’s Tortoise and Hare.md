@@ -10,6 +10,7 @@ Every integer appears exactly once, except for one integer which appears two or 
 Our target is solving the problem without modifying the array nums and using O(1) extra space. Making a Python dictionary is a standard choice, but it require O(n) space.
 Alternatively, Floyd algorithm can provide a better solution.
 
+```python
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
 
